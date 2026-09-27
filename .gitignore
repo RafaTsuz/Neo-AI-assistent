@@ -1,0 +1,35 @@
+# Segredos e configuração local — NUNCA subir isso
+.env
+*.env
+!.env.example
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Áudios temporários gerados pelo próprio script
+*.wav
+comando.wav
+escuta_kw.wav
+
+# Modelos baixados pelo Whisper local (podem ser grandes)
+*.pt
+
+# Arquivos de IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

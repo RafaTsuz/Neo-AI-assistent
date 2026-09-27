@@ -1,0 +1,8 @@
+sounddevice
+soundfile
+numpy
+pyttsx3
+requests
+python-dotenv
+openai
+anthropic
